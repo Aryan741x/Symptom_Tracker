@@ -41,7 +41,7 @@ l2=[]
 for i in range(0,len(l1)):
     l2.append(0)
 
-file_path = "C:\\Users\\Aryan\\Desktop\\Frontend\\services\\training.csv"
+file_path = "C:\\Users\\Aryan\\Desktop\\Frontend\\frontend\\services\\training.csv"
 
 # Reading the training .csv file
 df=pd.read_csv(file_path, encoding="utf-8")
@@ -62,7 +62,7 @@ X= df[l1]
 y = df[["prognosis"]]
 np.ravel(y)
 
-file_path_test = "C:\\Users\\Aryan\\Desktop\\Frontend\\services\\testing.csv"
+file_path_test = "C:\\Users\\Aryan\\Desktop\\Frontend\\frontend\\services\\testing.csv"
 
 tr=pd.read_csv(file_path_test)
 
